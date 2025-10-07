@@ -1,0 +1,58 @@
+{
+    "start": {
+        "description": "In a mystical forest known as the Whispering Woods, ancient trees tower above, their leaves shimmering with a magical glow. The air is thick with enchantment, and the forest is said to be alive, whispering secrets to those who dare to listen.\nYou are a young adventurer named Elara, known for your bravery and curiosity. One day, while exploring the outskirts of your village, you stumble upon a hidden path leading into the heart of the Whispering Woods. Legends speak of a powerful artifact hidden deep within the forest, said to grant its wielder immense power. As you step onto the path, the whispers grow louder, beckoning you to uncover the forest's secrets.\nAs you venture deeper, you reach a fork in the path. To your left, the trail is overgrown and dark, with eerie sounds echoing from within. To your right, the path is well-trodden and illuminated by soft, glowing flowers.",
+        "decision": {
+            "l1_d1": "Take the left path into the darkness, seeking the unknown", 
+            "l1_d2": "Choose the right path, following the light and safety."
+        },
+        "is_death": false,
+        "is_end": false
+    },
+
+    "l1_d1": {
+        "description": "You step into the shadows, where the air grows colder. Suddenly, you encounter a group of mischievous forest spirits. They challenge you to a riddle, promising a clue to the artifact's location if you succeed.",
+        "decision": {
+            "l1_d1_l2_d1": "Attempt to solve the riddle.",
+            "l1_d1_l2_d2": "Try to negotiate with the spirits for a different clue."
+        },
+        "is_death": false,
+        "is_end": false        
+    },
+
+    "l1_d2": {
+        "description": "The glowing flowers lead you to a serene glade, where a wise old tree spirit resides. The spirit offers you guidance but asks for a favor in return.",
+        "decision": {
+            "l1_d2_l2_d1": "Agree to help the tree spirit with its task.",
+            "l1_d2_l2_d2": "Politely decline and continue your quest alone."
+        },
+        "is_death": false,
+        "is_end": false   
+    },
+
+    "l1_d1_l2_d1": {
+        "description": "Elara confidently approaches the spirits and attempts to solve their riddle. After a moment of contemplation, she answers correctly, impressing the spirits. In gratitude, they reveal the location of the artifact and grant her a protective charm. With the spirits' blessing, Elara retrieves the artifact and emerges from the Whispering Woods, celebrated as a hero in her village.",
+        "decision": {},
+        "is_death": false,
+        "is_end": true   
+    },
+
+    "l1_d1_l2_d2": {
+        "description": "Elara attempts to negotiate with the spirits, but they see her as a coward. Angered, they cast a spell that traps her in the forest forever, forcing her to wander the Whispering Woods as a spirit herself. She learns the secrets of the forest but can never leave, forever longing for the life she once had.",
+        "decision": {},
+        "is_death": true,
+        "is_end": false
+    },
+
+    "l1_d2_l2_d1": {
+        "description": "Elara agrees to help the tree spirit with its task, which involves restoring a dying part of the forest. However, the task proves too difficult, and despite her best efforts, she fails to revive the area. The spirit, disappointed, withdraws its guidance, leaving Elara lost and without the artifact. She wanders the woods, forever searching for a way to redeem herself.",
+        "decision": {},
+        "is_death": true,
+        "is_end": false
+    },
+    "l1_d2_l2_d2": {
+        "description": "Elara politely declines the tree spirit's offer and continues on her quest. She eventually discovers the artifact hidden in a sunlit clearing, guarded by a fierce creature. Using her wits and courage, she defeats the guardian and claims the artifact. With its power, she brings peace to the Whispering Woods and her village, becoming a legend in her own right.",
+        "decision": {},
+        "is_death": false,
+        "is_end": true
+    }
+}
